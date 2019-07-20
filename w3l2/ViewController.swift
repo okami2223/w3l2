@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func segmentAction(_ sender: UISegmentedControl) {
-        
+        print(sender.selectedSegmentIndex)
     }
     
     @IBAction func sliderAction(_ sender: UISlider) {
